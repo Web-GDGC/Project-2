@@ -1,0 +1,38 @@
+.cart{
+    margin-top: 100px;
+}
+
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: grey;
+    font-size: max(12px, 1vw);
+    row-gap: 10px;
+}
+
+.cart-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+
+.cart-items-item img{
+    width: 50px;
+}
+
+.cross{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1025px) {
+    
+    .issue-button{
+        margin-top: 7px;
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .cart-items{
+        min-height: 30vh;
+    }
+}
